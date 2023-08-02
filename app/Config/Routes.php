@@ -33,6 +33,8 @@ $routes->get('/', 'Home::index');
 $routes->get('/register', 'Auth::register');
 $routes->get('/login', 'Auth::login');
 
+service('auth')->routes($routes);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
