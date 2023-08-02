@@ -9,6 +9,7 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "codeigniter4/shield": "dev-develop",
         "laminas/laminas-escaper": "^2.9",
         "psr/log": "^1.1",
         "vlucas/phpdotenv": "^5.5"
@@ -63,5 +64,8 @@
         "forum": "https://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/CodeIgniter4",
         "slack": "https://codeigniterchat.slack.com"
+    },
+    "provide": {
+        "codeigniter4/authentication-implementation": "1.0"
     }
 }

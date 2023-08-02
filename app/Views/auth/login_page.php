@@ -44,7 +44,7 @@
 <section>
 
 <div class="register-form">
-    <?= form_open('/register') ?>
+    <?= form_open('/login') ?>
     <h1>Login</h1>
 
     <div class="mb-3 row">
