@@ -3,4 +3,5 @@ writable/debugbar/
 writable/logs/
 writable/session/
 writable/uploads/
+vendor/
 env
