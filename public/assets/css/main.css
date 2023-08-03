@@ -41,11 +41,13 @@ header li a {
     text-decoration: none;
 }
 header li.menu-item a {
+    font-size: 12px;
+    font-weight: bold;
     border-radius: 5px;
     margin: 5px 0;
     height: 38px;
     line-height: 36px;
-    padding: .4rem .65rem;
+    padding: .1rem .3rem;
     text-align: center;
 }
 header li.menu-item a:hover,
@@ -179,7 +181,6 @@ footer .copyrights {
         color: rgba(255, 255, 255, .8);
     }
 }
-.register-form, .login-form {
-    width: 400px;
-    margin: auto;
+.jp-font {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

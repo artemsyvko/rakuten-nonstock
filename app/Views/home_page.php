@@ -22,14 +22,19 @@
             </li>
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
-            </li>
-            <li class="menu-item hidden"><a href="#">Home</a></li>
-            <li class="menu-item hidden"><a href="https://codeigniter4.github.io/userguide/" target="_blank">Docs</a>
-            </li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
-            <li class="menu-item hidden"><a
-                    href="https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md" target="_blank">Contribute</a>
-            </li>
+            </li>            
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品管理</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">注文管理</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">売上分析</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品一括インポート</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品一括出品</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">RMS商品削除</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">ブラックリスト</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">禁止キーワード</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">デフォルト追跡価格設定</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">メールテンプレート</a></li>
+            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">ユーザー情報編集</a></li>
+            <li class="menu-item hidden"><a href="/logout">ログアウト</a></li>
         </ul>
     </div>
 
