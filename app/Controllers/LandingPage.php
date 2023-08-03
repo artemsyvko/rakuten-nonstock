@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class LandingPage extends BaseController
 {
     public function index()
     {
-        return view('home_page');
+        return view('landing_page');
     }
 }
