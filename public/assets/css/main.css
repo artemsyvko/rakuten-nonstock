@@ -2,13 +2,14 @@
     transition: background-color 300ms ease, color 300ms ease;
 }
 *:focus {
-    background-color: rgba(221, 72, 20, .2);
+    background-color: rgba(221, 72, 20, 0.2);
     outline: none;
 }
-html, body {
+html,
+body {
     color: rgba(33, 37, 41, 1);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -17,10 +18,10 @@ html, body {
 }
 header {
     background-color: rgba(247, 248, 249, 1);
-    padding: .4rem 0 0;
+    padding: 0.4rem 0 0;
 }
 .menu {
-    padding: .4rem 2rem;
+    padding: 0.4rem 2rem;
 }
 header ul {
     border-bottom: 1px solid rgba(242, 242, 242, 1);
@@ -35,7 +36,7 @@ header li {
 }
 header li a {
     border-radius: 5px;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.5);
     display: block;
     height: 44px;
     text-decoration: none;
@@ -47,18 +48,18 @@ header li.menu-item a {
     margin: 5px 0;
     height: 38px;
     line-height: 36px;
-    padding: .1rem .3rem;
+    padding: 0.1rem 0.3rem;
     text-align: center;
 }
 header li.menu-item a:hover,
 header li.menu-item a:focus {
-    background-color: rgba(221, 72, 20, .2);
+    background-color: rgba(221, 72, 20, 0.2);
     color: rgba(221, 72, 20, 1);
 }
 header .logo {
     float: left;
     height: 44px;
-    padding: .4rem .5rem;
+    padding: 0.4rem 0.5rem;
 }
 header .menu-toggle {
     display: none;
@@ -67,7 +68,7 @@ header .menu-toggle {
     font-weight: bold;
 }
 header .menu-toggle button {
-    background-color: rgba(221, 72, 20, .6);
+    background-color: rgba(221, 72, 20, 0.6);
     border: none;
     border-radius: 3px;
     color: rgba(255, 255, 255, 1);
@@ -82,8 +83,8 @@ header .menu-toggle button {
 }
 header .menu-toggle button:hover,
 header .menu-toggle button:focus {
-    background-color: rgba(221, 72, 20, .8);
-    color: rgba(255, 255, 255, .8);
+    background-color: rgba(221, 72, 20, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 header .heroe {
     margin: 0 auto;
@@ -98,10 +99,21 @@ header .heroe h2 {
     font-size: 1.5rem;
     font-weight: 300;
 }
+header .heroe-1 {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 1.75rem 0.5rem 0;
+}
+header .heroe-1 h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 section {
     margin: 0 auto;
     max-width: 1100px;
-    padding: 2.5rem 1.75rem 3.5rem 1.75rem;
+    padding: 1rem 1.75rem 3.5rem 1.75rem;
 }
 section h1 {
     margin-bottom: 2.5rem;
@@ -115,7 +127,7 @@ section pre {
     background-color: rgba(247, 248, 249, 1);
     border: 1px solid rgba(242, 242, 242, 1);
     display: block;
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin: 2rem 0;
     padding: 1rem 1.5rem;
     white-space: pre-wrap;
@@ -141,7 +153,7 @@ section svg {
     padding-top: 0;
 }
 footer {
-    background-color: rgba(221, 72, 20, .8);
+    background-color: rgba(221, 72, 20, 0.8);
     text-align: center;
 }
 footer .environment {
@@ -151,7 +163,7 @@ footer .environment {
 footer .copyrights {
     background-color: rgba(62, 62, 62, 1);
     color: rgba(200, 200, 200, 1);
-    padding: .25rem 1.75rem;
+    padding: 0.25rem 1.75rem;
 }
 @media (max-width: 629px) {
     header ul {
@@ -173,14 +185,48 @@ footer .copyrights {
         display: none;
     }
     header li.menu-item a {
-        background-color: rgba(221, 72, 20, .1);
+        background-color: rgba(221, 72, 20, 0.1);
     }
     header li.menu-item a:hover,
     header li.menu-item a:focus {
-        background-color: rgba(221, 72, 20, .7);
-        color: rgba(255, 255, 255, .8);
+        background-color: rgba(221, 72, 20, 0.7);
+        color: rgba(255, 255, 255, 0.8);
     }
 }
+
+/* CUSTOM CSS BY ARTEMSYVKO */
 .jp-font {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.w-50px {
+    width: 50px !important;
+}
+.w-75px {
+    width: 75px !important;
+}
+.w-100px {
+    width: 100px !important;
+}
+.w-150px {
+    width: 150px !important;
+}
+.w-200px {
+    width: 200px !important;
+}
+.w-250px {
+    width: 250px !important;
+}
+.w-300px {
+    width: 300px !important;
+}
+
+/* PRODUCT MANAGEMENT PAGE */
+.product-filter label {
+    font-size: small;
+}
+.product-table tbody tr td {
+    border: 1px solid rgb(216, 208, 208) !important;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+/* CUSTOM CSS BY ARTEMSYVKO */

@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rakuten | Home</title>
+    <title>Rakuauto | 登録商品一覧</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
     <link href="/assets/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -23,26 +25,24 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>            
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品管理</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">注文管理</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">売上分析</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品一括インポート</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">商品一括出品</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">RMS商品削除</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">ブラックリスト</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">禁止キーワード</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">デフォルト追跡価格設定</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">メールテンプレート</a></li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/">ユーザー情報編集</a></li>
+            <li class="menu-item hidden"><a href="#">商品管理</a></li>
+            <li class="menu-item hidden"><a href="#">注文管理</a></li>
+            <li class="menu-item hidden"><a href="#">売上分析</a></li>
+            <li class="menu-item hidden"><a href="#">商品一括インポート</a></li>
+            <li class="menu-item hidden"><a href="#">商品一括出品</a></li>
+            <li class="menu-item hidden"><a href="#">RMS商品削除</a></li>
+            <li class="menu-item hidden"><a href="#">ブラックリスト</a></li>
+            <li class="menu-item hidden"><a href="#">禁止キーワード</a></li>
+            <li class="menu-item hidden"><a href="#">デフォルト追跡価格設定</a></li>
+            <li class="menu-item hidden"><a href="#">メールテンプレート</a></li>
+            <li class="menu-item hidden"><a href="#">ユーザー情報編集</a></li>
             <li class="menu-item hidden"><a href="/logout">ログアウト</a></li>
         </ul>
     </div>
 
-    <div class="heroe">
+    <div class="heroe-1">
 
-        <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
-
-        <h2>The small framework with powerful features</h2>
+        <h1>登録商品一覧</h1>
 
     </div>
 
@@ -52,76 +52,228 @@
 
 <section>
 
-    <h1>About this page</h1>
+    <div class="border border-gray rounded ps-4 pe-3 pt-2 pb-2">
 
-    <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+        <div class="mb-1">
 
-    <p>If you would like to edit this page you will find it located at:</p>
+            <div class="d-inline-block">
+                <label class="small" for="">出品状態</label>
+                <select class="form-select form-select-sm w-150px me-2">
+                    <option selected></option>
+                    <option value="listing_rakuten">出品済み</option>
+                    <option value="not_listing">未出品</option>
+                </select>
+            </div>
 
-    <pre><code>app/Views/welcome_message.php</code></pre>
+            <div class="d-inline-block">
+                <label class="small" for="">NG商品</label>
+                <select class="form-select form-select-sm w-150px me-2">
+                    <option selected></option>
+                    <option value="ok">OK商品のみ</option>
+                    <option value="ng">NG商品すべて</option>
+                    <option value="fba">FBA在庫切れ</option>
+                    <option value="reserve_item">予約商品</option>
+                    <option value="ng_word">NGワード含む</option>
+                </select>
+            </div>
 
-    <p>The corresponding controller for this page can be found at:</p>
+            <div class="d-inline-block">
+                <label class="small" for="">ブラックリスト</label>
+                <select class="form-select form-select-sm w-150px me-2">
+                    <option></option>
+                    <option value="false" selected>いいえ</option>
+                    <option value="true">はい</option>
+                </select>
+            </div>
 
-    <pre><code>app/Controllers/Home.php</code></pre>
+            <div class="d-inline-block">
+                <label class="small" for="">ランキング </label>
+                <div>
+                    <input type="number" class="form-control form-control-sm w-75px me-2 d-inline-block"><small>位 ~</small> 
+                    <input type="number" class="form-control form-control-sm w-75px ms-2 me-2 d-inline-block"><small>位</small>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mb-1">
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">Aamzon価格</label>
+                <div>
+                    <input type="number" class="form-control form-control-sm w-100px me-2 d-inline-block"><small>円以上 ~</small> 
+                    <input type="number" class="form-control form-control-sm w-100px ms-2 me-2 d-inline-block"><small>円以下</small>
+                </div>
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">インポートID</label>
+                <input class="form-control form-control-sm w-150px">
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">ASIN</label>
+                <input class="form-control form-control-sm w-200px">
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">商品名、特徴、説明(部分一致)</label>
+                <input class="form-control form-control-sm w-250px">
+            </div>
+
+        </div>
+
+        <div class="mb-1">
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">販売個数</label>
+                <div>
+                    <input type="number" class="form-control form-control-sm w-100px me-2 d-inline-block"><small>個以上</small>
+                </div>
+            </div>
+            
+            <div class="d-inline-block form-check me-2">
+                <input class="form-check-input me-2" type="checkbox" value="" id="">
+                <label class="form-check-label small" for="">
+                    1個も売れていない商品
+                </label>
+            </div>
+            
+            <div class="d-inline-block form-check me-2">
+                <input class="form-check-input small me-2" type="checkbox" value="" id="">
+                <label class="form-check-label" for="">
+                    出品済みFBA在庫なし
+                </label>
+            </div>
+
+            <div class="d-inline-block form-check me-2">
+                <input type="submit" name="" value="検  索" id="" class="btn btn-success btn-sm">
+            </div>
+
+        </div>
+
+    </div>
+
+    <table class="mt-4 mb-2">
+        <tbody>
+            <tr>
+                <td class="pe-3">
+                    <span class="small">件数: 10414件</span>
+                </td>
+                <td class="pe-3">
+                    <input type="submit" name="" value="表示中商品のASIN出力" id="" class="btn btn-success btn-sm">
+                </td>
+                <td class="pe-3">
+                    <label class="small d-inline-block" for="">表示中商品の</label>
+                    <select class="form-select form-select-sm d-inline-block w-150px me-2">
+                        <option selected></option>
+                        <option value="AllBlackList">一括ブラックリスト</option>
+                        <option value="AllBlackListKaijo">一括ブラックリスト解除</option>
+                        <option value="AllDelete">一括削除</option>
+                        <option value="AllRakutenDelete">出品取り下げ</option>
+                    </select>
+                </td>
+                <td class="pe-3">
+                    <input type="submit" name="" value="実  行" id="" class="btn btn-success btn-sm">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="mt-2 mb-2 product-table">
+        <tbody>
+            <tr>
+                <td id="">
+                    <span>ASIN: </span><span id="">B0BG8PWK8T</span><br>
+                    <span>JAN: </span><span id="">なし</span><br>
+                    <a id="" class="btn btn-warning btn-sm mb-1" target="_blank" href="#">Amazon</a><br>
+                    <a id="" class="btn btn-warning btn-sm mb-1" target="_blank" href="#">Amazon出品者一覧</a><br>
+                    <a id="" class="btn btn-info btn-sm mb-1" target="_blank" href="#">楽天商品名検索結果</a><br>
+                    <span><a id="" class="btn btn-info btn-sm mb-1" target="_blank" href="#">楽天ASIN検索結果</a><br></span>
+                    <span><a onclick="return confirm('この商品を楽天へ出品しますか?');" id="" class="btn btn-info btn-sm mb-1" href="#">楽天出品</a><br></span>
+                    <span><a onclick="return confirm('楽天から出品を取り下げますか?');" id="" class="btn btn-info btn-sm mb-1" href="#">楽天出品取り下げ</a><br></span>
+                    <span><a onclick="return confirm('ブラックリストに登録しますか?');" id="" class="btn btn-dark btn-sm mb-1" href="#">ブラックリスト登録</a><br></span>
+                    <!-- <span><a onclick="return confirm('ブラックリストから外しますか?');" id="" class="btn btn-dark btn-sm mb-1" href="#">ブラックリスト解除</a><br></span> -->
+                    <a id="" target="_blank" class="btn btn-success btn-sm mb-1" href="#">編  集</a><br>
+                    <a onclick="return confirm('出品している場合、出品も削除されますがよろしいですか？');" id="" class="btn btn-outline-secondary btn-sm mb-1" href="#">削  除</a>
+                </td>
+                <td id="" style="">
+                    <table style="">
+                        <tbody>
+                            <tr>
+                                <td colspan="3" id="" style="">
+                                    <table style="">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center; border-style: none;">
+                                                    <img id="MainContent_ListView1_ctrl0_img_Image_0" src="https://images-na.ssl-images-amazon.com/images/I/41wP2ButTnL.jpg" style="width:80px;">
+                                                </td>
+                                                <td style="border-style: none; line-height: 20px;">
+                                                    <span style="font-weight: bold;">商品名: </span><span id="MainContent_ListView1_ctrl0_lbl_ItemName_0">LED デスクライト アームライト 電気スタンド 2600LUX - 超高輝度 - 長くする光源設計 広範囲照明可能 目に優しい 省エネ クランプライト 3段階調色 10段階明るさ調整 ACアダプター付属 合金製クランプ付き 折り畳み 角度自在 テレワーク 読書/勉強/仕事 【13W・PSE認証済】</span><br>
+                                                    <span style="font-weight: bold;">ブランド: </span><span id="MainContent_ListView1_ctrl0_lbl_Brand_0">Tledtech</span><br>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                            
+                            <td id="MainContent_ListView1_ctrl0_td7_0" style="">
+                                ＜出品状態＞<br>
+                                
+                                <a id="MainContent_ListView1_ctrl0_lnk_IsListingQoo10_0" target="_blank" href="https://www.qoo10.jp/gmkt.inc/Goods/Goods.aspx?goodscode=1038085216" style="font-weight:bold;">出品済み</a><br>
+                                ＜販売個数＞<br>
+                                <a id="MainContent_ListView1_ctrl0_lbl_SoldAmountQoo10_0" target="_blank" href="Qoo10/Qoo10OrderManager.aspx?number=1038085216">0個</a>
+                                <br><br>
+                                <span style="font-weight: bold;">Amazon最安FBA: </span><span id="MainContent_ListView1_ctrl0_lblCartPrice_0" style="color:Red;">0円</span><br>
+                                <span style="font-weight: bold;">Amazonポイント: </span><span id="MainContent_ListView1_ctrl0_Label6_0" style="color:Blue;">0pt</span><br>
+                                <span style="font-weight: bold;">Qoo10販売価格: </span><span id="MainContent_ListView1_ctrl0_lbl_Qoo10Price_0" style="color:Blue;">4,949円</span>
+                            </td>
+                            <td style="border-style: none; border-right-style: solid; border-bottom-style: solid;">
+                                <span style="font-weight: bold;">ランキング: </span><span id="MainContent_ListView1_ctrl0_lblRanking_0">21,993位</span><br>
+                                <span style="font-weight: bold;">発売日: </span><span id="MainContent_ListView1_ctrl0_lbl_ReleaseDate_0" style="background-color:Transparent;"></span><br>
+                                <span style="font-weight: bold;">予約商品: </span><span id="MainContent_ListView1_ctrl0_lbl_IsReserve_0" style="background-color:Transparent;">いいえ</span><br>
+                                <span style="font-weight: bold;">ブラックリスト: </span><span id="MainContent_ListView1_ctrl0_lbl_IsBlackList_0">いいえ</span><br>
+                                <span style="font-weight: bold;">NG商品: </span><span id="MainContent_ListView1_ctrl0_lbl_IsNgItem_0" style="color:Black;"></span>
+                            </td>
+                            <td style="border-style: none; border-bottom-style: solid;">
+                                <span style="font-weight: bold;">インポートID: </span><span id="MainContent_ListView1_ctrl0_lbl_ImportId_0">350</span><br>
+                                <span style="font-weight: bold;">インポート名: </span><span id="MainContent_ListView1_ctrl0_lbl_ImportName_0">kp23</span><br>
+                                <span style="font-weight: bold;">登録日時: </span><span id="MainContent_ListView1_ctrl0_lbl_CreateDate_0">2023/03/24 11:57:17</span><br>
+                                <span style="font-weight: bold;">更新日時: </span><span id="MainContent_ListView1_ctrl0_lbl_UpdateDate_0">2023/07/03 8:12:58</span>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="border-style: none; text-align: center; padding-top: 15px;">
+                                    <img id="MainContent_ListView1_ctrl0_imgKeepaUrl_0" src="https://dyn.keepa.com/pricehistory.png?asin=B0BG8PWK8T&amp;domain=co.jp&amp;width=400&amp;height=150&amp;range=90&amp;salesrank=1" data-xblocker="passed" style="visibility: visible;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="MainContent_ListView1_ctrl0_td5_0" colspan="7" style="min-width:400px; text-align:left;" bgcolor="#FFFFFF">
+                    <span style="font-weight: bold;">商品特徴: <br></span><span id="MainContent_ListView1_ctrl0_lbl_Features_0">【高輝度・広範囲照明可能なLEDデスクライト】高品質LEDチップを採用することにより最大照度は約2600luxに達成し、従来品よりずっと明るいです。平面発光技術が採用されたLEDライトからの光はワイドに広がり、デスクトップ全体を照らし、明暗差を減らすことができます。フリッカー/グレアなど目に悪いことを防ぎ、読書、寝室、ベッド、子供勉強用などに最適です。学習机やデスクワークにもオススメです！<br>【専用ACアダプター付き・長寿命・省エネ】PSE認証済みの専用アダプターを付属し、より安定した電源供給が可能なデスクランプです。よりLED光源に適したライトであり、より長い寿命を備えて安心してご利用いただけます。僅か13Wの消費電力で約蛍光灯消費電力の1/4でありながら、寿命は蛍光灯の約8倍となります。LEDだから、電気代も節約出来ます。光を調節すれば、最小3Wとかなり経済的なLED照明です。使い続ける程に省エネを実感します。<br>【10段階調光&amp;3段階調色】シンプルながらもモダンな雰囲気を演出できるアームライト。調光・調色やメモリー機能も搭載した、使いやすさにも拘ったデスクライトです。明るさ調整ボタンを押して10段階の明るさ切替できます。気分によって3段階の調色（昼白色→電球色→昼光色）が自由に切り替えられます。<br>【アーム構造・省スペース】LEDライトは頑丈な高品質アルミ合金製クランプを採用し、最大厚さ5cmのデスクに挟むことができます。アーム上部の長さは約380mmであり、光の方向を任意に調整できるため、全方向の照明を実現し、デスクトップスペースを最大限に活用し、省スペースです。使わない時はフル折りたたんでデスクスペースを有効活用できるため、狭い場所でも快適に使えます。<br>【虫が寄りにくい・記憶機能搭載】LEDデスクライトから虫が集まりやすい紫外線領域波長を殆ど出さないため、虫が寄り付きにくくなって、きれいな空間にお掃除もラクラクです！また再点灯時に前回点灯時の明るさと光色を自動的に点灯してくれる便利な記憶機能を備えており、新年ギフト、誕生日ギフト、クリスマスプレゼントなど、友達への贈り物としても非常に適しています。<br></span>
+                    <span style="font-weight: bold;">商品説明: <br></span><span id="MainContent_ListView1_ctrl0_lbl_Description_0"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 </section>
-
-<div class="further">
-
-    <section>
-
-        <h1>Go further</h1>
-
-        <h2>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect x='32' y='96' width='64' height='368' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='224' x2='240' y2='224' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='400' x2='240' y2='400' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect x='112' y='160' width='128' height='304' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><rect x='256' y='48' width='96' height='416' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><path d='M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/></svg>
-            Learn
-        </h2>
-
-        <p>The User Guide contains an introduction, tutorial, a number of "how to"
-            guides, and then reference documentation for the components that make up
-            the framework. Check the <a href="https://codeigniter4.github.io/userguide"
-            target="_blank">User Guide</a> !</p>
-
-        <h2>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M431,320.6c-1-3.6,1.2-8.6,3.3-12.2a33.68,33.68,0,0,1,2.1-3.1A162,162,0,0,0,464,215c.3-92.2-77.5-167-173.7-167C206.4,48,136.4,105.1,120,180.9a160.7,160.7,0,0,0-3.7,34.2c0,92.3,74.8,169.1,171,169.1,15.3,0,35.9-4.6,47.2-7.7s22.5-7.2,25.4-8.3a26.44,26.44,0,0,1,9.3-1.7,26,26,0,0,1,10.1,2L436,388.6a13.52,13.52,0,0,0,3.9,1,8,8,0,0,0,8-8,12.85,12.85,0,0,0-.5-2.7Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><path d='M66.46,232a146.23,146.23,0,0,0,6.39,152.67c2.31,3.49,3.61,6.19,3.21,8s-11.93,61.87-11.93,61.87a8,8,0,0,0,2.71,7.68A8.17,8.17,0,0,0,72,464a7.26,7.26,0,0,0,2.91-.6l56.21-22a15.7,15.7,0,0,1,12,.2c18.94,7.38,39.88,12,60.83,12A159.21,159.21,0,0,0,284,432.11' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
-            Discuss
-        </h2>
-
-        <p>CodeIgniter is a community-developed open source project, with several
-             venues for the community members to gather and exchange ideas. View all
-             the threads on <a href="https://forum.codeigniter.com/"
-             target="_blank">CodeIgniter's forum</a>, or <a href="https://join.slack.com/t/codeigniterchat/shared_invite/zt-rl30zw00-obL1Hr1q1ATvkzVkFp8S0Q"
-             target="_blank">chat on Slack</a> !</p>
-
-        <h2>
-             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><line x1='176' y1='48' x2='336' y2='48' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='118' y1='304' x2='394' y2='304' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><path d='M208,48v93.48a64.09,64.09,0,0,1-9.88,34.18L73.21,373.49C48.4,412.78,76.63,464,123.08,464H388.92c46.45,0,74.68-51.22,49.87-90.51L313.87,175.66A64.09,64.09,0,0,1,304,141.48V48' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
-             Contribute
-        </h2>
-
-        <p>CodeIgniter is a community driven project and accepts contributions
-             of code and documentation from the community. Why not
-             <a href="https://codeigniter.com/contribute" target="_blank">
-             join us</a> ?</p>
-
-    </section>
-
-</div>
 
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <footer>
-    <div class="environment">
+    <div class="environment" style="display:<?= ENVIRONMENT == 'development' ? 'block' : 'none' ?>">
 
         <p>Page rendered in {elapsed_time} seconds</p>
-
-        <p>Environment: <?= ENVIRONMENT ?></p>
 
     </div>
 
     <div class="copyrights">
 
-        <p>&copy; <?= date('Y') ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT
-            open source licence.</p>
+        <p>&copy; <?= date('Y') == 2023 ? '2023' : '2023-' . date('Y') ?> Rakuauto</p>
 
     </div>
 
