@@ -224,7 +224,12 @@ footer .copyrights {
 .product-filter label {
     font-size: small;
 }
-.product-table tbody tr td {
+.custom-bordered-table thead tr th {
+    border: 1px solid rgb(216, 208, 208) !important;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+.custom-bordered-table tbody tr td {
     border: 1px solid rgb(216, 208, 208) !important;
     border-radius: 3px;
     padding: 0.2rem;
