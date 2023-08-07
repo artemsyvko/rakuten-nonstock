@@ -12,6 +12,7 @@ $routes = Services::routes();
  */
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Home');
+$routes->setDefaultController('ItemImport');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -38,6 +39,7 @@ $routes->get('login', '\App\Controllers\Auth\LoginController::loginView');
 $routes->get('register', '\App\Controllers\Auth\RegisterController::registerView');
 
 $routes->get('/home', 'Home::index');
+$routes->get('/item-import', 'ItemImport::index');
 
 /*
  * --------------------------------------------------------------------

@@ -25,10 +25,10 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>            
-            <li class="menu-item hidden"><a href="#">商品管理</a></li>
+            <li class="menu-item hidden"><a href="/home">商品管理</a></li>
             <li class="menu-item hidden"><a href="#">注文管理</a></li>
             <li class="menu-item hidden"><a href="#">売上分析</a></li>
-            <li class="menu-item hidden"><a href="#">商品一括インポート</a></li>
+            <li class="menu-item hidden"><a href="/item-import">商品一括インポート</a></li>
             <li class="menu-item hidden"><a href="#">商品一括出品</a></li>
             <li class="menu-item hidden"><a href="#">RMS商品削除</a></li>
             <li class="menu-item hidden"><a href="#">ブラックリスト</a></li>
@@ -180,7 +180,7 @@
         </tbody>
     </table>
 
-    <table class="mt-2 mb-2 product-table">
+    <table class="mt-2 mb-2 custom-bordered-table">
         <tbody>
             <tr>
                 <td id="">
