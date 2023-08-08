@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rakuauto | 登録商品一覧</title>
+    <title>Rakuauto | <?= $page_title ?></title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -50,7 +50,7 @@
 
     <div class="heroe-1">
 
-        <h1>登録商品一覧</h1>
+        <h1><?= $page_title ?></h1>
 
     </div>
 
