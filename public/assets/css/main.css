@@ -61,6 +61,9 @@ header .logo {
     height: 44px;
     padding: 0.4rem 0.5rem;
 }
+header .logo a:focus {
+    background-color: inherit;
+}
 header .menu-toggle {
     display: none;
     float: right;

@@ -18,7 +18,7 @@
     <div class="menu">
         <ul>
             <li class="logo">
-                <a href="<?= base_url().'home' ?>">
+                <a href="<?= base_url().'item-management' ?>">
                     <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139 30" width="139" height="30">
                         <title>Rakuauto</title>
                         <defs>
