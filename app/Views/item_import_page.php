@@ -28,7 +28,7 @@
 
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-9">
             
             <table class="w-100">
                 <tbody>

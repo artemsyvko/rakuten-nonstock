@@ -148,7 +148,7 @@
     <table class="mt-2 mb-2 product-table">
         <tbody>
             <tr>
-                <td class="custom-border w-120px align-top pt-2 ps-2 pd-2">
+                <td class="custom-border w-120px align-top pt-2 ps-2 pe-2">
                     <div class="mb-2">
                         <span>ASIN: </span>
                         <span id="">B0BG8PWK8T</span>
