@@ -191,19 +191,19 @@
     <table class="mt-2 mb-2 custom-bordered-table">
         <tbody>
             <tr>
-                <td id="">
+                <td id="" class="w-120px">
                     <span>ASIN: </span><span id="">B0BG8PWK8T</span><br>
                     <span>JAN: </span><span id="">なし</span><br>
-                    <a id="" class="btn btn-warning btn-sm mb-1" target="_blank" href="#">Amazon</a><br>
-                    <a id="" class="btn btn-warning btn-sm mb-1" target="_blank" href="#">Amazon出品者一覧</a><br>
-                    <a id="" class="btn btn-info btn-sm mb-1" target="_blank" href="#">楽天商品名検索結果</a><br>
-                    <span><a id="" class="btn btn-info btn-sm mb-1" target="_blank" href="#">楽天ASIN検索結果</a><br></span>
-                    <span><a onclick="return confirm('この商品を楽天へ出品しますか?');" id="" class="btn btn-info btn-sm mb-1" href="#">楽天出品</a><br></span>
-                    <span><a onclick="return confirm('楽天から出品を取り下げますか?');" id="" class="btn btn-info btn-sm mb-1" href="#">楽天出品取り下げ</a><br></span>
-                    <span><a onclick="return confirm('ブラックリストに登録しますか?');" id="" class="btn btn-dark btn-sm mb-1" href="#">ブラックリスト登録</a><br></span>
-                    <!-- <span><a onclick="return confirm('ブラックリストから外しますか?');" id="" class="btn btn-dark btn-sm mb-1" href="#">ブラックリスト解除</a><br></span> -->
-                    <a id="" target="_blank" class="btn btn-success btn-sm mb-1" href="#">編  集</a><br>
-                    <a onclick="return confirm('出品している場合、出品も削除されますがよろしいですか？');" id="" class="btn btn-outline-secondary btn-sm mb-1" href="#">削  除</a>
+                    <a id="" class="btn btn-warning btn-sm mb-1 w-100" target="_blank" href="#">Amazon</a><br>
+                    <a id="" class="btn btn-warning btn-sm mb-1 w-100" target="_blank" href="#">Amazon出品者一覧</a><br>
+                    <a id="" class="btn btn-info btn-sm mb-1 w-100" target="_blank" href="#">楽天商品名検索結果</a><br>
+                    <span><a id="" class="btn btn-info btn-sm mb-1 w-100" target="_blank" href="#">楽天ASIN検索結果</a><br></span>
+                    <span><a onclick="return confirm('この商品を楽天へ出品しますか?');" id="" class="btn btn-info btn-sm mb-1 w-100" href="#">楽天出品</a><br></span>
+                    <span><a onclick="return confirm('楽天から出品を取り下げますか?');" id="" class="btn btn-info btn-sm mb-1 w-100" href="#">楽天出品取り下げ</a><br></span>
+                    <span><a onclick="return confirm('ブラックリストに登録しますか?');" id="" class="btn btn-dark btn-sm mb-1 w-100" href="#">ブラックリスト登録</a><br></span>
+                    <!-- <span><a onclick="return confirm('ブラックリストから外しますか?');" id="" class="btn btn-dark btn-sm mb-1 w-100" href="#">ブラックリスト解除</a><br></span> -->
+                    <a id="" target="_blank" class="btn btn-success btn-sm mb-1 w-100" href="#">編  集</a><br>
+                    <a onclick="return confirm('出品している場合、出品も削除されますがよろしいですか？');" id="" class="btn btn-outline-secondary btn-sm mb-1 w-100" href="#">削  除</a>
                 </td>
                 <td id="" style="">
                     <table style="">
