@@ -33,7 +33,7 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>            
-            <li class="menu-item hidden"><a href="/home">商品管理</a></li>
+            <li class="menu-item hidden"><a href="/item-management">商品管理</a></li>
             <li class="menu-item hidden"><a href="#">注文管理</a></li>
             <li class="menu-item hidden"><a href="#">売上分析</a></li>
             <li class="menu-item hidden"><a href="/item-import">商品一括インポート</a></li>

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class ItemManagement extends BaseController
 {
     public function index()
     {
@@ -10,7 +10,7 @@ class Home extends BaseController
             'page_title' => '登録商品一覧',
         ];
         return view('sections/header', $header_params)
-            .view('home_page')
+            .view('item_management_page')
             .view('sections/footer');
     }
 }
