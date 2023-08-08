@@ -223,6 +223,9 @@ footer .copyrights {
 .w-150px {
     width: 150px !important;
 }
+.w-160px {
+    width: 160px !important;
+}
 .w-200px {
     width: 200px !important;
 }
@@ -234,6 +237,9 @@ footer .copyrights {
 }
 .w-400px {
     width: 400px !important;
+}
+.w-500px {
+    width: 500px !important;
 }
 
 /* PRODUCT MANAGEMENT PAGE */
