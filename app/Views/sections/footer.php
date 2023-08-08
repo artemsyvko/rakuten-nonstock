@@ -7,7 +7,7 @@
 
     </div>
 
-    <div class="copyrights">
+    <div class="copyrights pt-3">
 
         <p>&copy; <?= date('Y') == 2023 ? '2023' : '2023-' . date('Y') ?> Rakuauto</p>
 
