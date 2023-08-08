@@ -7,7 +7,7 @@ class ItemManagement extends BaseController
     public function index()
     {
         $header_params = [
-            'page_title' => '登録商品一覧',
+            'page_title' => '商品管理',
         ];
         return view('sections/header', $header_params)
             .view('item_management_page')

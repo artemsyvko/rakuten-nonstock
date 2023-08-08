@@ -109,6 +109,7 @@ header .heroe-1 h1 {
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding-left: 1.75rem;
 }
 section {
     margin: 0 auto;
@@ -203,6 +204,9 @@ footer .copyrights {
 }
 .w-75px {
     width: 75px !important;
+}
+.w-80px {
+    width: 80px !important;
 }
 .w-100px {
     width: 100px !important;

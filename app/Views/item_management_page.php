@@ -8,7 +8,7 @@
 
             <div class="d-inline-block">
                 <label class="small" for="">出品状態</label>
-                <select class="form-select form-select-sm w-150px me-2">
+                <select class="form-select form-select-sm w-75px me-2">
                     <option selected></option>
                     <option value="listing_rakuten">出品済み</option>
                     <option value="not_listing">未出品</option>
@@ -17,19 +17,21 @@
 
             <div class="d-inline-block">
                 <label class="small" for="">NG商品</label>
-                <select class="form-select form-select-sm w-150px me-2">
+                <select class="form-select form-select-sm w-120px me-2">
                     <option selected></option>
                     <option value="ok">OK商品のみ</option>
                     <option value="ng">NG商品すべて</option>
                     <option value="fba">FBA在庫切れ</option>
                     <option value="reserve_item">予約商品</option>
                     <option value="ng_word">NGワード含む</option>
+                    <option value="ng_size">サイズNG</option>
+                    <option value="missing_infomation">商品説明不足</option>
                 </select>
             </div>
 
             <div class="d-inline-block">
                 <label class="small" for="">ブラックリスト</label>
-                <select class="form-select form-select-sm w-150px me-2">
+                <select class="form-select form-select-sm w-100px me-2">
                     <option></option>
                     <option value="false" selected>いいえ</option>
                     <option value="true">はい</option>
@@ -37,67 +39,91 @@
             </div>
 
             <div class="d-inline-block">
-                <label class="small" for="">ランキング </label>
+                <label for="" class="small">商品サイズ</label>
+                <select class="form-select form-select-sm w-120px me-2">
+                    <option selected="selected" value=""></option>
+                    <option value="nonSize">サイズ情報なし</option>
+                    <option value="ss">SSサイズ</option>
+                    <option value="60">60サイズ</option>
+                    <option value="80">80サイズ</option>
+                    <option value="100">100サイズ</option>
+                    <option value="120">120サイズ</option>
+                    <option value="140">140サイズ</option>
+                    <option value="over">オーバーサイズ</option>
+                </select>
+            </div>
+
+            <div class="d-inline-block me-3">
+                <label class="small" for="">ランキング</label>
                 <div>
                     <input type="number" class="form-control form-control-sm w-75px me-2 d-inline-block"><small>位 ~</small> 
                     <input type="number" class="form-control form-control-sm w-75px ms-2 me-2 d-inline-block"><small>位</small>
                 </div>
             </div>
 
-        </div>
-
-        <div class="mb-1">
-
-            <div class="d-inline-block me-2">
-                <label class="small" for="">Aamzon価格</label>
+            <div class="d-inline-block me-3">
+                <label class="small" for="">利益額</label>
                 <div>
-                    <input type="number" class="form-control form-control-sm w-100px me-2 d-inline-block"><small>円以上 ~</small> 
-                    <input type="number" class="form-control form-control-sm w-100px ms-2 me-2 d-inline-block"><small>円以下</small>
+                    <input type="number" class="form-control form-control-sm w-75px me-2 d-inline-block"><small>個以上</small>
                 </div>
             </div>
 
-            <div class="d-inline-block me-2">
-                <label class="small" for="">インポートID</label>
-                <input class="form-control form-control-sm w-150px">
-            </div>
-
-            <div class="d-inline-block me-2">
-                <label class="small" for="">ASIN</label>
-                <input class="form-control form-control-sm w-200px">
-            </div>
-
-            <div class="d-inline-block me-2">
-                <label class="small" for="">商品名、特徴、説明(部分一致)</label>
-                <input class="form-control form-control-sm w-250px">
-            </div>
-
-        </div>
-
-        <div class="mb-1">
-
-            <div class="d-inline-block me-2">
-                <label class="small" for="">販売個数</label>
-                <div>
-                    <input type="number" class="form-control form-control-sm w-100px me-2 d-inline-block"><small>個以上</small>
-                </div>
-            </div>
-            
             <div class="d-inline-block form-check me-2">
                 <input class="form-check-input me-2" type="checkbox" value="" id="">
                 <label class="form-check-label small" for="">
-                    1個も売れていない商品
+                    出品済みFBA在庫なし
                 </label>
             </div>
             
             <div class="d-inline-block form-check me-2">
                 <input class="form-check-input small me-2" type="checkbox" value="" id="">
                 <label class="form-check-label" for="">
-                    出品済みFBA在庫なし
+                    有在庫のみ
                 </label>
             </div>
 
-            <div class="d-inline-block form-check me-2">
-                <input type="submit" name="" value="検  索" id="" class="btn btn-success btn-sm">
+        </div>
+
+        <div class="mb-1">
+
+            <div class="d-inline-block me-3">
+                <label class="small" for="">販売価格</label>
+                <div>
+                    <input type="number" class="form-control form-control-sm w-75px me-2 d-inline-block"><small>円以上 ~</small> 
+                    <input type="number" class="form-control form-control-sm w-75px ms-2 me-2 d-inline-block"><small>円以下</small>
+                </div>
+            </div>
+
+            <div class="d-inline-block me-3">
+                <label class="small" for="">販売個数</label>
+                <div>
+                    <input type="number" class="form-control form-control-sm w-50px me-2 d-inline-block"><small>個以上 ~</small> 
+                    <input type="number" class="form-control form-control-sm w-50px ms-2 me-2 d-inline-block"><small>個以下</small>
+                </div>
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">インポートID</label>
+                <input class="form-control form-control-sm w-75px">
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">ASIN</label>
+                <input class="form-control form-control-sm w-80px">
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">商品管理番号(商品URL)</label>
+                <input class="form-control form-control-sm w-120px">
+            </div>
+
+            <div class="d-inline-block me-2">
+                <label class="small" for="">商品名、特徴、説明(部分一致)</label>
+                <input class="form-control form-control-sm w-150px">
+            </div>
+
+            <div class="d-inline-block">
+                <input type="submit" name="" style="margin-bottom: 2px" value=" 検  索 " id="" class="btn btn-success btn-sm">
             </div>
 
         </div>
