@@ -18,6 +18,7 @@ $routes->setDefaultController('ItemImport');
 $routes->setDefaultController('Blacklist');
 $routes->setDefaultController('NgKeyword');
 $routes->setDefaultController('TrackingPrice');
+$routes->setDefaultController('MailTemplate');
 
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
@@ -52,6 +53,7 @@ $routes->get('/item-listing', 'ItemListing::index');
 $routes->get('/blacklist', 'Blacklist::index');
 $routes->get('/ngkeyword', 'NgKeyword::index');
 $routes->get('/tracking-price-setting', 'TrackingPrice::index');
+$routes->get('/mail-template', 'MailTemplate::index');
 
 /*
  * --------------------------------------------------------------------
