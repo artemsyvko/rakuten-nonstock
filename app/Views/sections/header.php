@@ -43,7 +43,7 @@
             <li class="menu-item hidden"><a class="<?= $page_title=='禁止キーワード'?'active':'' ?>" href="/ngkeyword">禁止キーワード</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='デフォルト追跡価格設定'?'active':'' ?>" href="/tracking-price-setting">デフォルト追跡価格設定</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='メールテンプレート'?'active':'' ?>" href="/mail-template">メールテンプレート</a></li>
-            <li class="menu-item hidden"><a class="<?= $page_title=='ユーザー情報編集'?'active':'' ?>" href="#">ユーザー情報編集</a></li>
+            <li class="menu-item hidden"><a class="<?= $page_title=='ユーザー情報編集'?'active':'' ?>" href="/my-account">ユーザー情報編集</a></li>
             <li class="menu-item hidden"><a href="/logout">ログアウト</a></li>
         </ul>
     </div>

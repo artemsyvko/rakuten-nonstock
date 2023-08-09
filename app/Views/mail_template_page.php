@@ -52,7 +52,7 @@ Amazon提携の配送業者がお届けに伺うことがございます。
                 </textarea>
             </div>
             <div class="mb-4">
-                <input type="submit" class="btn btn-success d-inline-block" value="更  新">
+                <input type="submit" class="btn btn-success d-inline-block" value=" 更  新 ">
             </div>
         </div>
         
