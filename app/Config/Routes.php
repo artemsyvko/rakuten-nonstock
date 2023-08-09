@@ -50,6 +50,7 @@ $routes->get('/item-management', 'ItemManagement::index');
 $routes->get('/order-management', 'OrderManagement::index');
 $routes->get('/sales-analysis', 'SalesAnalysis::index');
 $routes->get('/item-import', 'ItemImport::index');
+$routes->get('/import-error', 'ItemImport::import_error');
 $routes->get('/item-listing', 'ItemListing::index');
 $routes->get('/blacklist', 'Blacklist::index');
 $routes->get('/ngkeyword', 'NgKeyword::index');
