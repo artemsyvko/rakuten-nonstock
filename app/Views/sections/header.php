@@ -38,7 +38,7 @@
             <li class="menu-item hidden"><a class="<?= $page_title=='売上分析'?'active':'' ?>" href="/sales-analysis">売上分析</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='商品インポート'?'active':'' ?>" href="/item-import">商品一括インポート</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='商品一括出品'?'active':'' ?>" href="/item-listing">商品一括出品</a></li>
-            <li class="menu-item hidden"><a class="<?= $page_title=='RMS商品削除'?'active':'' ?>" href="/rms-item-delete">RMS商品削除</a></li>
+            <li class="menu-item hidden"><a class="<?= $page_title=='RMSに出品されている商品の一括削除'?'active':'' ?>" href="/rms-item-delete">RMS商品削除</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='ブラックリスト'?'active':'' ?>" href="/blacklist">ブラックリスト</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='禁止キーワード'?'active':'' ?>" href="/ngkeyword">禁止キーワード</a></li>
             <li class="menu-item hidden"><a class="<?= $page_title=='デフォルト追跡価格設定'?'active':'' ?>" href="/tracking-price-setting">デフォルト追跡価格設定</a></li>
