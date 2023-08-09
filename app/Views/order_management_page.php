@@ -89,7 +89,7 @@
         <span class="small">登録件: 781件</span>
     </div>
 
-    <table class="mt-2 mb-2 product-table">
+    <table class="mt-2 mb-2 product-table w-100">
         <thead>
             <tr>
                 <th class="custom-border text-center">業務</th>

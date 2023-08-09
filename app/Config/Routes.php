@@ -13,6 +13,7 @@ $routes = Services::routes();
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('ItemManagement');
 $routes->setDefaultController('OrderManagement');
+$routes->setDefaultController('SalesAnalysis');
 $routes->setDefaultController('ItemImport');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
@@ -41,6 +42,7 @@ $routes->get('register', '\App\Controllers\Auth\RegisterController::registerView
 
 $routes->get('/item-management', 'ItemManagement::index');
 $routes->get('/order-management', 'OrderManagement::index');
+$routes->get('/sales-analysis', 'SalesAnalysis::index');
 $routes->get('/item-import', 'ItemImport::index');
 
 /*
