@@ -16,14 +16,14 @@
         
         <tbody>
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">~</td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">~</td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
                     <div class="d-inline-block me-4">
                         <div class="d-inline-block">
                             <label for="">利益率：</label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="40"><small>%</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="40"><small>%</small> 
                         </div>
                     </div>
                     
@@ -32,28 +32,28 @@
                             <label for="">利益額: </label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="200"><small>円</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="200"><small>円</small> 
                         </div>
                     </div>
                 </td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
-                    <input type="text" class="form-control form-control-sm w-100px d-inline-block me-1" value="1000"><small>円</small>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
+                    <input type="number" class="form-control form-control-sm w-100px d-inline-block me-1" value="1000"><small>円</small>
                 </td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1"></td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2"></td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">~</td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">~</td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
                     <div class="d-inline-block me-4">
                         <div class="d-inline-block">
                             <label for="">利益率：</label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="30"><small>%</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="30"><small>%</small> 
                         </div>
                     </div>
                     
@@ -62,28 +62,28 @@
                             <label for="">利益額: </label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="300"><small>円</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="300"><small>円</small> 
                         </div>
                     </div>
                 </td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
-                    <input type="text" class="form-control form-control-sm w-100px d-inline-block me-1" value="3000"><small>円</small>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
+                    <input type="number" class="form-control form-control-sm w-100px d-inline-block me-1" value="3000"><small>円</small>
                 </td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1"></td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2"></td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">~</td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">~</td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
                     <div class="d-inline-block me-4">
                         <div class="d-inline-block">
                             <label for="">利益率：</label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="30"><small>%</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="30"><small>%</small> 
                         </div>
                     </div>
                     
@@ -92,28 +92,28 @@
                             <label for="">利益額: </label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="400"><small>円</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="400"><small>円</small> 
                         </div>
                     </div>
                 </td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
-                    <input type="text" class="form-control form-control-sm w-100px d-inline-block me-1" value="5000"><small>円</small>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
+                    <input type="number" class="form-control form-control-sm w-100px d-inline-block me-1" value="5000"><small>円</small>
                 </td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1"></td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2"></td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">~</td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">~</td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
                     <div class="d-inline-block me-4">
                         <div class="d-inline-block">
                             <label for="">利益率：</label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="25"><small>%</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="25"><small>%</small> 
                         </div>
                     </div>
                     
@@ -122,28 +122,28 @@
                             <label for="">利益額: </label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="500"><small>円</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="500"><small>円</small> 
                         </div>
                     </div>
                 </td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
-                    <input type="text" class="form-control form-control-sm w-100px d-inline-block me-1" value="10000"><small>円</small>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
+                    <input type="number" class="form-control form-control-sm w-100px d-inline-block me-1" value="10000"><small>円</small>
                 </td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1"></td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2"></td>
             </tr>
             
             <tr>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">~</td>
-                <td class="custom-border ps-4 pe-4 pt-1 pb-1">
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">~</td>
+                <td class="custom-border ps-4 pe-4 pt-2 pb-2">
                     <div class="d-inline-block me-4">
                         <div class="d-inline-block">
                             <label for="">利益率：</label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="10"><small>%</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="10"><small>%</small> 
                         </div>
                     </div>
                     
@@ -152,7 +152,7 @@
                             <label for="">利益額: </label>
                         </div>
                         <div class="d-inline-block">
-                            <input type="text" class="form-control form-control-sm w-75px d-inline-block me-1" value="600"><small>円</small> 
+                            <input type="number" class="form-control form-control-sm w-75px d-inline-block me-1" value="600"><small>円</small> 
                         </div>
                     </div>
                 </td>
