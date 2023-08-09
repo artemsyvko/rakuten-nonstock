@@ -13,4 +13,14 @@ class ItemManagement extends BaseController
             .view('item_management_page')
             .view('sections/footer');
     }
+
+    public function edit()
+    {
+        $header_params = [
+            'page_title' => '商品情報編集',
+        ];
+        return view('sections/header', $header_params)
+            .view('item_edit_page')
+            .view('sections/footer');
+    }
 }
