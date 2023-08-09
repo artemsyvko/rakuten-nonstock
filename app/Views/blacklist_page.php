@@ -5,14 +5,17 @@
     <div class="mb-4">
 
         <div class="mb-2">
-            <small class="text-danger"><b>一括商品登録する際にここで登録されているASINの商品を自動で除くことができます。</b></small><br>
-            <small>禁止ASIN登録(複数登録可。改行ごとに1単語)</small>
+            <span class="text-danger">一括商品登録する際にここで登録されているASINの商品を自動で除くことができます。</span><br>
+            <span>禁止ASIN登録(複数登録可。改行ごとに1単語)</span>
+        </div>
+        
+        <div class="mb-2">
             <textarea rows="20" class="form-control w-400px"></textarea>
         </div>
 
         <div>
-            <input type="submit" class="btn btn-primary d-inline-block" value="登  録">
-            <input type="submit" class="btn btn-primary d-inline-block" value="テキスト出力">
+            <input type="submit" class="btn btn-success d-inline-block" value=" 登  録 ">
+            <input type="submit" class="btn btn-success d-inline-block" value="テキスト出力">
             <input type="submit" class="btn btn-secondary d-inline-block" value="一括削除">
         </div>
 

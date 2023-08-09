@@ -5,13 +5,16 @@
     <div class="mb-4">
 
         <div class="mb-2">
-            <small>禁止キーワード登録(複数登録可。改行ごとに1単語)</small>
+            <span>禁止キーワード登録(複数登録可。改行ごとに1単語)</span>
+        </div>
+
+        <div class="mb-2">
             <textarea rows="12" class="form-control w-400px"></textarea>
         </div>
 
         <div>
-            <input type="submit" class="btn btn-primary d-inline-block" value="登  録">
-            <input type="submit" class="btn btn-primary d-inline-block" value="テキスト出力">
+            <input type="submit" class="btn btn-success d-inline-block" value=" 登  録 ">
+            <input type="submit" class="btn btn-success d-inline-block" value="テキスト出力">
             <input type="submit" class="btn btn-secondary d-inline-block" value="一括削除">
         </div>
 

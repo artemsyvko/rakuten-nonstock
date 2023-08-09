@@ -140,39 +140,39 @@
                 <td class="custom-border bg-secondary text-end text-white p-2">自己配送時送料</td>
                 <td class="custom-border p-2">
                     <div class="me-1">
-                        <label class="small" for="">SSサイズ</label>
+                        <label for="">SSサイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                     <div class="me-1">
-                        <label class="small" for="">60サイズ</label>
+                        <label for="">60サイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                     <div class="me-1">
-                        <label class="small" for="">80サイズ</label>
+                        <label for="">80サイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                     <div class="me-1">
-                        <label class="small" for="">100サイズ</label>
+                        <label for="">100サイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                     <div class="me-1">
-                        <label class="small" for="">120サイズ</label>
+                        <label for="">120サイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                     <div class="me-1">
-                        <label class="small" for="">140サイズ</label>
+                        <label for="">140サイズ</label>
                         <div>
-                            <input type="number" class="form-control w-100px me-2 d-inline-block"><small>円</small> 
+                            <input type="number" class="form-control w-100px me-2 d-inline-block"><span>円</span> 
                         </div>
                     </div>
                 </td>
