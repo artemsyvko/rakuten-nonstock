@@ -13,4 +13,14 @@ class OrderManagement extends BaseController
             .view('order_management_page')
             .view('sections/footer');
     }
+
+    public function edit()
+    {
+        $header_params = [
+            'page_title' => '注文情報編集',
+        ];
+        return view('sections/header', $header_params)
+            .view('order_edit_page')
+            .view('sections/footer');
+    }
 }

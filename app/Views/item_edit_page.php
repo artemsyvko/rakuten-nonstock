@@ -14,7 +14,7 @@
             <tr>
                 <td class="custom-border bg-secondary text-end text-white p-2">商品名</td>
                 <td class="custom-border p-2">
-                    <input type="email" class="form-control w-100" value="LEEHUR ユニコーンおもちゃ ユニコーン ドーナツ ムーン ストレス解消おもちゃ 装飾品 お祭 子供景品 誕生日プレゼント 6歳以上 (夜光スクイーズ（20個入り）)">
+                    <input type="text" class="form-control w-100" value="LEEHUR ユニコーンおもちゃ ユニコーン ドーナツ ムーン ストレス解消おもちゃ 装飾品 お祭 子供景品 誕生日プレゼント 6歳以上 (夜光スクイーズ（20個入り）)">
                 </td>
             </tr>
 
