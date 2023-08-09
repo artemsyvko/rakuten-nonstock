@@ -56,6 +56,10 @@ header li.menu-item a:focus {
     background-color: rgba(221, 72, 20, 0.2);
     color: rgba(221, 72, 20, 1);
 }
+header li.menu-item a.active {
+    background-color: rgba(221, 72, 20, 0.2) !important;
+    color: rgba(221, 72, 20, 1) !important;
+}
 header .logo {
     float: left;
     height: 44px;
