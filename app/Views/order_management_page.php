@@ -8,7 +8,7 @@
 
             <div class="d-inline-block">
                 <label class="small" for="">状態</label>
-                <select class="form-select form-select-sm w-150px me-2">
+                <select class="form-select w-150px me-2">
                     <option selected="selected" value=""></option>
                     <option value="注文確認待ち">注文確認待ち</option>
                     <option value="出荷待ち">出荷待ち</option>
@@ -21,7 +21,7 @@
 
             <div class="d-inline-block">
                 <label class="small" for="">注文ステータス</label>
-                <select class="form-select form-select-sm w-150px me-2">
+                <select class="form-select w-150px me-2">
                     <option selected="selected" value=""></option>
                     <option value="注文確認待ち">注文確認待ち</option>
                     <option value="楽天処理中">楽天処理中</option>
@@ -37,14 +37,14 @@
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">注文ID</label>
-                <input class="form-control form-control-sm w-200px">
+                <input class="form-control w-200px">
             </div>
 
             <div class="d-inline-block me-3">
                 <label class="small" for="">注文日</label>
                 <div>
-                    <input type="date" class="form-control form-control-sm w-100px me-2 d-inline-block"> ~ 
-                    <input type="date" class="form-control form-control-sm w-100px ms-2 me-2 d-inline-block">
+                    <input type="date" class="form-control w-150px me-2 d-inline-block"> ~ 
+                    <input type="date" class="form-control w-150px ms-2 me-2 d-inline-block">
                 </div>
             </div>
 
@@ -54,27 +54,27 @@
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">商品管理番号(商品URL)</label>
-                <input class="form-control form-control-sm w-200px">
+                <input class="form-control w-200px">
             </div>
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">入庫依頼ID</label>
-                <input class="form-control form-control-sm w-150px">
+                <input class="form-control w-150px">
             </div>
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">出庫依頼ID</label>
-                <input class="form-control form-control-sm w-150px">
+                <input class="form-control w-150px">
             </div>
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">氏名</label>
-                <input class="form-control form-control-sm w-150px">
+                <input class="form-control w-150px">
             </div>
 
             <div class="d-inline-block me-2">
                 <label class="small" for="">電話番号</label>
-                <input class="form-control form-control-sm w-150px">
+                <input class="form-control w-150px">
             </div>
 
             <div class="d-inline-block">

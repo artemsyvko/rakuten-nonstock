@@ -6,7 +6,7 @@
 
         <div class="mb-2">
             <small>禁止キーワード登録(複数登録可。改行ごとに1単語)</small>
-            <textarea rows="12" class="form-control form-control-sm w-400px"></textarea>
+            <textarea rows="12" class="form-control w-400px"></textarea>
         </div>
 
         <div>
@@ -35,7 +35,7 @@
             <tr>
                 <td class="custom-border p-1 text-center">1</td>
                 <td class="custom-border p-1">
-                    <input type="text" class="form-control form-control-sm w-200px" value="“着る岩盤浴”BSファイン">
+                    <input type="text" class="form-control w-200px" value="“着る岩盤浴”BSファイン">
                 </td>
                 <td class="custom-border p-1 text-center">
                     <a class="d-block" href="">更新</a>

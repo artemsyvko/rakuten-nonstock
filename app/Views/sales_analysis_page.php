@@ -23,19 +23,19 @@
 
             <div class="d-inline-block">
                 <label class="small" for="">集計期間</label>
-                <input type="month" class="form-control form-control-sm w-100px me-2">
+                <input type="month" class="form-control w-150px me-2">
             </div>
 
             <div class="d-inline-block me-3 d-none">
                 <label class="small" for="">集計期間</label>
                 <div>
-                    <input type="date" class="form-control form-control-sm w-100px me-2 d-inline-block"> ~ 
-                    <input type="date" class="form-control form-control-sm w-100px ms-2 me-2 d-inline-block">
+                    <input type="date" class="form-control w-150px me-2 d-inline-block"> ~ 
+                    <input type="date" class="form-control w-150px ms-2 me-2 d-inline-block">
                 </div>
             </div>
 
             <div class="d-inline-block">
-                <input type="submit" name="" style="margin-bottom: 2px" value=" 集  計 " id="" class="btn btn-success btn-sm">
+                <input type="submit" name="" style="margin-bottom: 4px" value=" 集  計 " id="" class="btn btn-success">
             </div>
 
         </div>

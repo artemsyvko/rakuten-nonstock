@@ -10,14 +10,14 @@
 
                 <div class="mb-4">
                     <label for="" class="small">インポート名</label>
-                    <input type="text" class="form-control form-control-sm">
+                    <input type="text" class="form-control">
                 </div>
                 <div class="mb-2">
                     <label for="" class="small">
                         ASIN<span class="text-danger">(上限1000件)※</span><br>
                         改行区切りで入力してください。
                     </label>
-                    <textarea rows="20" class="form-control form-control-sm"></textarea>
+                    <textarea rows="20" class="form-control"></textarea>
                 </div>
 
                 <div>
