@@ -37,7 +37,7 @@
             <li class="menu-item hidden"><a href="/order-management">注文管理</a></li>
             <li class="menu-item hidden"><a href="/sales-analysis">売上分析</a></li>
             <li class="menu-item hidden"><a href="/item-import">商品一括インポート</a></li>
-            <li class="menu-item hidden"><a href="#">商品一括出品</a></li>
+            <li class="menu-item hidden"><a href="/item-listing">商品一括出品</a></li>
             <li class="menu-item hidden"><a href="#">RMS商品削除</a></li>
             <li class="menu-item hidden"><a href="#">ブラックリスト</a></li>
             <li class="menu-item hidden"><a href="#">禁止キーワード</a></li>
