@@ -28,7 +28,7 @@
 
     <div class="row">
         <div class="col-md-8">
-            <div class="mb-4">
+            <div class="mb-2">
                 <label class="small" for="">本文</label>
                 <textarea class="form-control w-100" rows="20">
 ご注文ありがとうございます。
@@ -50,6 +50,9 @@ Amazon提携の配送業者がお届けに伺うことがございます。
 
 %%SIGNATURE%%
                 </textarea>
+            </div>
+            <div class="mb-4">
+                <input type="submit" class="btn btn-success d-inline-block" value="更  新">
             </div>
         </div>
         
