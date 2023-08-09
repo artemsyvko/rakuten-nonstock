@@ -5,8 +5,7 @@
     <div class="mb-4">
 
         <div class="mb-2">
-            <small class="text-danger"><b>一括商品登録する際にここで登録されているASINの商品を自動で除くことができます。</b></small><br>
-            <small>禁止ASIN登録(複数登録可。改行ごとに1単語)</small>
+            <small>禁止キーワード登録(複数登録可。改行ごとに1単語)</small>
             <textarea rows="12" class="form-control form-control-sm w-400px"></textarea>
         </div>
 
@@ -19,14 +18,14 @@
     </div>
 
     <div>
-        <h4>登録件数: 24346件</h4>
+        <h4>登録件数: 6234件</h4>
     </div>
 
     <table class="mt-2 mb-2 w-100">
         <thead>
             <tr>
                 <td class="custom-border text-center bg-secondary text-light">No.</td>
-                <td class="custom-border text-center bg-secondary text-light">ASIN</td>
+                <td class="custom-border text-center bg-secondary text-light">キーワード</td>
                 <td class="custom-border text-center bg-secondary text-light"></td>
                 <td class="custom-border text-center bg-secondary text-light"></td>
             </tr>
@@ -36,7 +35,7 @@
             <tr>
                 <td class="custom-border p-1 text-center">1</td>
                 <td class="custom-border p-1">
-                    <input type="text" class="form-control form-control-sm w-200px" value="B071Z84BRD">
+                    <input type="text" class="form-control form-control-sm w-200px" value="“着る岩盤浴”BSファイン">
                 </td>
                 <td class="custom-border p-1 text-center">
                     <a class="d-block" href="">更新</a>
