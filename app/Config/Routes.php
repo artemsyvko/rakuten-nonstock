@@ -17,6 +17,7 @@ $routes->setDefaultController('SalesAnalysis');
 $routes->setDefaultController('ItemImport');
 $routes->setDefaultController('Blacklist');
 $routes->setDefaultController('NgKeyword');
+$routes->setDefaultController('TrackingPrice');
 
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
@@ -50,6 +51,7 @@ $routes->get('/item-import', 'ItemImport::index');
 $routes->get('/item-listing', 'ItemListing::index');
 $routes->get('/blacklist', 'Blacklist::index');
 $routes->get('/ngkeyword', 'NgKeyword::index');
+$routes->get('/tracking-price-setting', 'TrackingPrice::index');
 
 /*
  * --------------------------------------------------------------------
