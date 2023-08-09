@@ -47,6 +47,7 @@ $routes->get('login', '\App\Controllers\Auth\LoginController::loginView');
 $routes->get('register', '\App\Controllers\Auth\RegisterController::registerView');
 
 $routes->get('/item-management', 'ItemManagement::index');
+$routes->get('/item-management/edit', 'ItemManagement::edit');
 $routes->get('/order-management', 'OrderManagement::index');
 $routes->get('/sales-analysis', 'SalesAnalysis::index');
 $routes->get('/item-import', 'ItemImport::index');
