@@ -3,9 +3,9 @@
 <section>
 
     <div class="mb-4">
-        <small class="text-danger"><b>※商品管理ページでダウンロードした出品対象のASINを貼り付けてください。</b></small><br>
-        <small class="text-danger"><b>※楽ぴんに登録されているASINのみが出品対象となります。</b></small><br>
-        <small class="text-danger"><b>&nbsp&nbsp 登録していないASINを出品するにはまず楽ぴんに商品インポートしてください。</b></small>
+        <span class="text-danger fw-bold">※商品管理ページでダウンロードした出品対象のASINを貼り付けてください。</span><br>
+        <span class="text-danger fw-bold">※楽ぴんに登録されているASINのみが出品対象となります。</span><br>
+        <span class="text-danger fw-bold">&nbsp&nbsp 登録していないASINを出品するにはまず楽ぴんに商品インポートしてください。</span>
     </div>
 
     <div class="row">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="mb-2">
                     <label for="">
-                        ASIN <span class="text-danger">(上限1000件)※</span><br>
+                        ASIN <span class="text-danger fw-bold">(上限1000件)※</span><br>
                         改行区切りで入力してください。
                     </label>
                     <textarea rows="20" class="form-control"></textarea>

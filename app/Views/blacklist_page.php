@@ -5,7 +5,7 @@
     <div class="mb-4">
 
         <div class="mb-2">
-            <span class="text-danger">一括商品登録する際にここで登録されているASINの商品を自動で除くことができます。</span><br>
+            <span class="text-danger fw-bold">一括商品登録する際にここで登録されているASINの商品を自動で除くことができます。</span><br>
             <span>禁止ASIN登録(複数登録可。改行ごとに1単語)</span>
         </div>
         

@@ -3,14 +3,14 @@
 <section>
 
     <div class="mb-4">
-        <span class="text-danger d-block">本システムでは、Amazonの商品情報を取得するためにアマゾンのSPAPIを使用しています。</span>
-        <span class="text-danger d-block">以下のリンクよりSPAPI連携をするために認証してください。</span>
+        <span class="text-danger fw-bold d-block">本システムでは、Amazonの商品情報を取得するためにアマゾンのSPAPIを使用しています。</span>
+        <span class="text-danger fw-bold d-block">以下のリンクよりSPAPI連携をするために認証してください。</span>
     </div>
 
     <div class="mb-4">
         <a href="" class="text-success d-block mb-2">SPAPIキー連携</a>
-        <span class="text-danger d-block">更新日：</span>
-        <span class="text-danger d-block">有効期限：</span>
+        <span class="text-danger fw-bold d-block">更新日：</span>
+        <span class="text-danger fw-bold d-block">有効期限：</span>
     </div>
 
     <table class="w-100 mb-2">

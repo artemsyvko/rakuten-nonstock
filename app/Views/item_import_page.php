@@ -14,7 +14,7 @@
                 </div>
                 <div class="mb-2">
                     <label for="">
-                        ASIN <span class="text-danger">(上限1000件)※</span><br>
+                        ASIN <span class="text-danger fw-bold">(上限1000件)※</span><br>
                         改行区切りで入力してください。
                     </label>
                     <textarea rows="20" class="form-control"></textarea>
