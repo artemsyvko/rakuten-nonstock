@@ -18,18 +18,18 @@
         </thead>
         <tbody>
             <tr>
-                <td class="p-2 w-25">
+                <td class="custom-border p-2 w-25">
                     EZ SPARES DYS V6 DC16, DC22, DC26, DC30, DC31, DC34, DC35, DC36, DC37, DC39, DC44, DC45, DC46, DC47, DC48, DC59, DC61, DC62, DC63, DC74, V6シリーズ クリーナー用別売ブラシ ユニバーサル丸ブラシ 掃除機アクセサリー 交換用
                 </td>
-                <td class="p-2 w-120px text-center">
+                <td class="custom-border p-2 w-120px text-center">
                     <img id="MainContent_ListView1_ctrl0_img_Image_0" src="https://images-na.ssl-images-amazon.com/images/I/31l7yT6H-zL.jpg" style="width:100px;">
                 </td>
-                <td class="p-2 w-50px">1</td>
-                <td class="p-2"></td>
-                <td class="p-2">
+                <td class="custom-border p-2 w-50px text-end">1</td>
+                <td class="custom-border p-2"></td>
+                <td class="custom-border p-2">
                     <input type="text" class="form-control w-100" value="掃除機用交換部品">
                 </td>
-                <td class="p-2 w-150px">
+                <td class="custom-border p-2 w-150px">
                     <a href="" class="btn btn-primary btn-sm d-block w-100 mb-1">Amazon</a>
                     <a href="" class="btn btn-danger btn-sm d-block w-100 mb-1"> 楽  天 </a>
                     <a href="" class="btn btn-success btn-sm d-block w-100 mb-1">楽ぴん商品管理</a>
