@@ -2,7 +2,7 @@
 
 <section>
 
-    <div class="border border-gray rounded ps-4 pe-3 pt-2 pb-2 mb-2">
+    <div class="border border-gray rounded ps-4 pe-3 pt-2 pb-2 mb-4">
 
         <div class="mb-1">
 
@@ -78,18 +78,18 @@
             </div>
 
             <div class="d-inline-block">
-                <input type="submit" name="" style="margin-bottom: 2px" value=" 検  索 " id="" class="btn btn-success btn-sm">
+                <input type="submit" name="" style="margin-bottom: 4px" value=" 検  索 " id="" class="btn btn-success">
             </div>
 
         </div>
 
     </div>
 
-    <div class="mt-2 mb-2">
-        <span class="small">登録件: 781件</span>
+    <div class="mb-2">
+        <h4>登録件: 781件</h4>
     </div>
 
-    <table class="mt-2 mb-2 product-table w-100">
+    <table class="mb-2 product-table w-100">
         <thead>
             <tr>
                 <th class="custom-border text-center">業務</th>

@@ -130,7 +130,7 @@
 
     </div>
 
-    <div>
+    <div class="mb-4">
         <button class="btn btn-primary btn-sm mb-1">表示中商品のASIN出力</button>
         <button class="btn btn-secondary btn-sm mb-1">表示中商品を楽天から一括出品削除</button>
         <button class="btn btn-dark btn-sm mb-1">表示中商品を一括ブラックリスト</button>
@@ -141,11 +141,11 @@
         <button class="btn btn-secondary btn-sm mb-1">出品済みでNGキーワードが含まれている商品</button>
     </div>
 
-    <div class="mt-2 mb-2">
-        <span class="small">件数: 10414件</span>
+    <div class="mb-2">
+        <h4>件数: 10414件</h4>
     </div>
 
-    <table class="mt-2 mb-2 product-table">
+    <table class="mb-2 product-table">
         <tbody>
             <tr>
                 <td class="custom-border w-131px align-top pt-2 ps-2 pe-2">

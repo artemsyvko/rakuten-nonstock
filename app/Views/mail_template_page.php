@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="mb-4">
-                <label for="" class="small">メール種別</label>
+                <label for="">メール種別</label>
                 <select class="form-select w-200px">
                     <option selected="selected" value="order_accept">注文承諾メール</option>
                     <option value="shipping_complete">発送完了メール</option>
@@ -18,7 +18,7 @@
             </div>
 
             <div class="mb-4">
-                <label class="small" for="">件名</label>
+                <label for="">件名</label>
                 <div>
                     <input type="text" class="form-control w-100">
                 </div>
@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="mb-2">
-                <label class="small" for="">本文</label>
+                <label for="">本文</label>
                 <textarea class="form-control w-100" rows="20">
 ご注文ありがとうございます。
 %%SHOP_NAME%% 通販担当の %%MAIL_NAME%% です。

@@ -9,19 +9,19 @@
             <form action="">
 
                 <div class="mb-4">
-                    <label for="" class="small">インポート名</label>
+                    <label for="">インポート名</label>
                     <input type="text" class="form-control">
                 </div>
                 <div class="mb-2">
-                    <label for="" class="small">
-                        ASIN<span class="text-danger">(上限1000件)※</span><br>
+                    <label for="">
+                        ASIN <span class="text-danger">(上限1000件)※</span><br>
                         改行区切りで入力してください。
                     </label>
                     <textarea rows="20" class="form-control"></textarea>
                 </div>
 
                 <div>
-                    <input type="submit" class="btn btn-success" value="登  録">
+                    <input type="submit" class="btn btn-success" value=" 登  録 ">
                 </div>
 
             </form>
